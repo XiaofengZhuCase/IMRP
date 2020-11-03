@@ -4,6 +4,11 @@
 ###  not a necessary step. We provide an example of MR analysis of HDL on CAD analyzed in the manuscript. The HLD data was downloaded from http://csg.sph.umich.edu/abecasis/
 ###  public/lipids2013/; CAD data was downloaded from http://www.cardiogramplusc4d.org/data-downloads/. If you have any questions, please contact Xiaofeng Zhu (xxz10@case.edu). 
 
+To run the program, type
+
+library(devtools)
+install_github("XiaofengZhuCase/IMRP")
+library("IMRP")
 
 ### The combined HDL and CAD data is named HDLCAD1.csv with each columns representing "SNP","Chr","Position","A1","A2","HDL_beta","HDL_se","HDL_N", "CAD_freq","CAD_beta","CAD_se". 
 ### Here HDL is a continuous trait and CAD is a binary trait. This approach is the same as suggested in the software MRmix (Qi and Chatterjee, Nat Commun 2019)
