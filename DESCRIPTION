@@ -1,0 +1,16 @@
+Package: IMRP
+Title: IMRP performs iterative Mendelian Randomization and Pleiotropy Analysis
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "First",
+           family = "Last",
+           role = c("aut", "cre"),
+           email = "first.last@example.com",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: MR_pleio is a R program to perform Iterative Memdelian Randomization and Pleiotropy analysis (IMRP, Zhu et al. An iterative approach to detect pleiotropy and perform Mendelian Randomization analysis using GWAS summary statistics", Bioinformatics, 2020). To call the program, the summary statistics of instrumental variables for the exposure and outcome need to be combined into a single data set, with matched reference and effect alleles. We suggested to standardize the summary statistics before performing IMRP, although this is not a necessary step. We provide an example of MR analysis of HDL on CAD analyzed in the manuscript. The HLD data was downloaded from http://csg.sph.umich.edu/abecasis/public/lipids2013/; CAD data was downloaded from http://www.cardiogramplusc4d.org/data-downloads/. If you have any questions, please contact Xiaofeng Zhu (xxz10@case.edu). 
+License: `use_mit_license()`, `use_gpl3_license()` or friends to
+    pick a license
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.0
